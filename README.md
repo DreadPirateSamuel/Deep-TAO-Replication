@@ -1,6 +1,6 @@
 # DEEP-TAO Replication: Classifying Astronomical Transients with Deep Learning
 
-This project replicates the DEEP-TAO study [](https://arxiv.org/pdf/2503.16714) to classify transient astronomical events using a convolutional neural network (CNN). The dataset, sourced from [MachineLearningUniande](https://github.com/MachineLearningUniande), contains FITS images of transient (e.g., supernovae, active galactic nuclei) and non-transient astronomical objects. Due to computational constraints, we used a subset of ~2,000 FITS files (~17,136 images) to train a baseline CNN, achieving an average F1-score of 0.9438, surpassing the original study's TAO-Net (F1=0.5458).
+This project replicates the DEEP-TAO study [](https://arxiv.org/pdf/2503.16714) to classify transient astronomical events using a convolutional neural network (CNN). The dataset, sourced from [MachineLearningUniande](https://github.com/MachineLearningUniandes), contains FITS images of transient (e.g., supernovae, active galactic nuclei) and non-transient astronomical objects. Due to computational constraints, we used a subset of ~2,000 FITS files (~17,136 images) to train a baseline CNN, achieving an average F1-score of 0.9438, surpassing the original study's TAO-Net (F1=0.5458).
 
 ## Project Overview
 - **Objective**: Replicate the DEEP-TAO study to classify six astronomical classes (SN, AGN, BZ, CV, OTHER, NON-TRANSIENT) using deep learning.
@@ -9,7 +9,7 @@ This project replicates the DEEP-TAO study [](https://arxiv.org/pdf/2503.16714) 
 - **Key Insight**: Demonstrated the power of deep learning for astronomical image classification, even with limited resources, though results suggest overfitting due to the small dataset.
 
 ## Repository Structure
-- `data/`: Placeholder for DEEP-TAO dataset (download from [MachineLearningUniande](https://github.com/MachineLearningUniande)).
+- `data/`: Placeholder for DEEP-TAO dataset (download from [MachineLearningUniande](https://github.com/MachineLearningUniandes)).
 - `results/`: Contains model outputs (confusion matrix, sample images, F1-scores, saved model).
 - `scripts/`: Core scripts (`replicate_deep_tao.py` for training, `testModel.py` for model verification).
 - `requirements.txt`: Dependencies for running the project.
@@ -27,7 +27,7 @@ This project replicates the DEEP-TAO study [](https://arxiv.org/pdf/2503.16714) 
 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Download the dataset. Obtain the DEEP-TAO dataset from [MachineLearningUniande](https://github.com/MachineLearningUniande). Place MANTRA-master, TAO_non-transients-master, and TAO_transients-master in the data/ folder.
+4. Download the dataset. Obtain the DEEP-TAO dataset from [MachineLearningUniande](https://github.com/MachineLearningUniandes). Place MANTRA-master, TAO_non-transients-master, and TAO_transients-master in the data/ folder.
 
 5. Run the code.
 python scripts/replicate_deep_tao.py
