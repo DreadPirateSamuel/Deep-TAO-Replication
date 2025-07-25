@@ -8,7 +8,7 @@ The DEEP-TAO dataset, introduced in the paper ["DEEP-TAO: The Deep Learning Tran
 ## How to Access the Dataset
 To obtain the full DEEP-TAO dataset, including the `TAO_transients-master`, `TAO_non-transients-master`, and `MANTRA-master` directories, please download it from the official source:
 
-- **Source**: [MachineLearningUniande GitHub Repository](https://github.com/MachineLearningUniande)
+- **Source**: [MachineLearningUniandes GitHub Repository](https://github.com/MachineLearningUniandes)
 - **Instructions**: Clone or download the dataset files and place them in this `data/` folder before running the project scripts. Ensure you have sufficient storage (~several GB) and computational resources to handle the dataset.
 
 ## Notes
